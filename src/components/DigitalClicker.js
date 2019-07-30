@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 
 export default class DigitalClicker extends Component {
+
   constructor() {
     super()
-    this.state {
+    this.state = {
       timesClicked: 0
     }
+  }
+
+  addClickAmount = () => {
+    this.setState({
+      timesClicked: +1
+    })
   }
 }
