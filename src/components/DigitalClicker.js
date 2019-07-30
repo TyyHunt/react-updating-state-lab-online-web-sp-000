@@ -11,7 +11,7 @@ export default class DigitalClicker extends Component {
 
   addClickAmount = () => {
     this.setState({
-      timesClicked: state.timesClicked + 1
+      timesClicked: this.state.timesClicked + 1
     })
   }
 
