@@ -18,7 +18,7 @@ export default class DigitalClicker extends Component {
 
   render() {
     return (
-
+      <button onClick={this.addClickAmount}>this.state.timesClicked</button>
     )
   }
 }
